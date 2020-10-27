@@ -1,0 +1,23 @@
+a:link:after,a:visited:after {
+  display:none;
+}
+
+.no-print {
+  display:none !important;
+}
+
+br.breakhere {
+  page-break-before: always;
+}
+
+@media screen {
+  div.BobFooter {
+    display: none !important;
+  }
+}
+@media print {
+  div.BobFooter {
+    position: fixed;
+    bottom: 0;
+  }
+}
