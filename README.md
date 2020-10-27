@@ -1,6 +1,6 @@
 # PHP Password Generator
 
-Create MySQL database named English
+Create MySQL database named: english
 
 Grant just select access to this user....
 
