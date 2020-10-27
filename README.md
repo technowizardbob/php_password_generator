@@ -2,9 +2,11 @@
 
 Create MySQL database named: english
 
-Grant just select access to this user....
+Grant just SELECT access to this user....on database english.
 
-Edit: $ nano pwd.php
+Copy: $ cp config.php.Example config.php
+
+Edit: $ nano config.php
 
 Find the DB_USER & DB_PASS, replace with your username and password for your database.
 
